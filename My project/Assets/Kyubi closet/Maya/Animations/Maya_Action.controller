@@ -53,10 +53,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5833346499022969323}
-  m_StateMachineBehaviours:
-  - {fileID: -6750039695688836036}
-  - {fileID: 437155681206588790}
-  - {fileID: -6999205090746049657}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -236,11 +233,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: 7474551563217451228}
   - {fileID: 5186385768238705687}
-  m_StateMachineBehaviours:
-  - {fileID: 4246481138693155473}
-  - {fileID: -6135771518742726998}
-  - {fileID: 6083837643739910394}
-  - {fileID: -5715252838433170316}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -355,25 +348,25 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: LocomotionMode
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: AFK
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Seated
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Action
@@ -7566,8 +7559,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101309906888226006}
-  m_StateMachineBehaviours:
-  - {fileID: 114438467473095304}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -7601,10 +7593,7 @@ AnimatorState:
   - {fileID: 1101252410325710750}
   - {fileID: 1101586939090455722}
   - {fileID: 1101617102165180960}
-  m_StateMachineBehaviours:
-  - {fileID: 114906509552436230}
-  - {fileID: 114477480236271576}
-  - {fileID: -6403001789835119267}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -7658,9 +7647,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101690037571322182}
-  m_StateMachineBehaviours:
-  - {fileID: 114746119590183792}
-  - {fileID: -6554327291863070767}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -7687,8 +7674,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101899360443307020}
-  m_StateMachineBehaviours:
-  - {fileID: 114694071423703700}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -7859,10 +7845,7 @@ AnimatorState:
   - {fileID: 1101010504622361918}
   - {fileID: 1101553647615258668}
   - {fileID: 1101177241164988062}
-  m_StateMachineBehaviours:
-  - {fileID: 114532365839709644}
-  - {fileID: 114120128517572610}
-  - {fileID: 4637256625157882206}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -7995,8 +7978,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101933332813781590}
-  m_StateMachineBehaviours:
-  - {fileID: 114951026687482710}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -8023,9 +8005,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101170989096283150}
-  m_StateMachineBehaviours:
-  - {fileID: 114658956749267794}
-  - {fileID: -8118271119291341843}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -8052,8 +8032,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101951873317809070}
-  m_StateMachineBehaviours:
-  - {fileID: 114380290190216218}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -8486,9 +8465,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: 5447293049468617195}
   - {fileID: 216519672322093930}
-  m_StateMachineBehaviours:
-  - {fileID: -948747739761692247}
-  - {fileID: -6317976605496625930}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
