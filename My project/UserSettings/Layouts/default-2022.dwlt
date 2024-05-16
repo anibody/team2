@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 24
+  controlID: 147
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,7 +218,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 830
     y: 0
-    width: 448
+    width: 342
     height: 947
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
@@ -241,7 +241,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 448
+    width: 342
     height: 631
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -267,7 +267,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 631
-    width: 448
+    width: 342
     height: 316
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
@@ -291,9 +291,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1278
+    x: 1172
     y: 0
-    width: 298
+    width: 404
     height: 947
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -350,7 +350,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 830
     y: 704
-    width: 446
+    width: 340
     height: 295
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -744,9 +744,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.564945, y: -2.6101062, z: -7.49614}
+    m_Target: {x: -4.292424, y: -4.955988, z: -9.600625}
     speed: 2
-    m_Value: {x: -7.564945, y: -2.6101062, z: -7.49614}
+    m_Value: {x: -4.292424, y: -4.955988, z: -9.600625}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -792,13 +792,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08700008, y: 0.86582285, z: -0.16185923, w: -0.46538353}
+    m_Target: {x: -0.056127813, y: 0.9438088, z: -0.23578271, w: -0.22467239}
     speed: 2
-    m_Value: {x: -0.08700015, y: 0.8658235, z: -0.16185935, w: -0.4653839}
+    m_Value: {x: -0.05648152, y: 0.9434723, z: -0.23569866, w: -0.22608824}
   m_Size:
-    m_Target: 6.9187393
+    m_Target: 6.9710336
     speed: 2
-    m_Value: 6.9187393
+    m_Value: 6.9710336
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -943,7 +943,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 830
     y: 73
-    width: 446
+    width: 340
     height: 610
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -958,9 +958,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f8d5ffff
-      m_LastClickedID: -10760
-      m_ExpandedIDs: 30fbffff
+      m_SelectedIDs: 5aebffff
+      m_LastClickedID: -5286
+      m_ExpandedIDs: 36efffff38efffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1004,9 +1004,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1278
+    x: 1172
     y: 73
-    width: 296
+    width: 402
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1029,7 +1029,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Kyubi closet/Maya
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1037,16 +1037,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Kyubi closet/Maya
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\KGA\Desktop\Github\team2\My project
+  m_LastProjectPath: C:\Users\KGA\Desktop\new\team2\My project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e6590000
-    m_LastClickedID: 23014
-    m_ExpandedIDs: 00000000b0590000de59000000ca9a3b
+    m_SelectedIDs: b27b0000
+    m_LastClickedID: 31666
+    m_ExpandedIDs: 00000000b27b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1074,7 +1074,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b0590000
+    m_ExpandedIDs: 00000000b27b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1101,7 +1101,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1129,7 +1129,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 97
+  m_DirectoriesAreaWidth: 167
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
