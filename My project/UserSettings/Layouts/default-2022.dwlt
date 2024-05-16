@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 48
+  controlID: 157
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -401,7 +401,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: -156, y: -26}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffsetDelta: {x: -15, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -960,7 +960,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 32fbffff
+      m_ExpandedIDs: 64faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1039,14 +1039,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\KGA\Desktop\new\team2\My project
+  m_LastProjectPath: C:\Users\KGA\Desktop\Github\team2\My project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: aa590000
-    m_LastClickedID: 22954
-    m_ExpandedIDs: 00000000aa59000000ca9a3b
+    m_SelectedIDs: d8590000
+    m_LastClickedID: 23000
+    m_ExpandedIDs: 00000000d859000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1074,7 +1074,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aa590000
+    m_ExpandedIDs: 00000000d8590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
