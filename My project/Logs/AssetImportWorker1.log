@@ -4,20 +4,20 @@ OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2022.3.21f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/KGA/Desktop/new/team2/My project
+C:/Users/KGA/Documents/GitHub/team2/My project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49879
-Successfully changed project path to: C:/Users/KGA/Desktop/new/team2/My project
-C:/Users/KGA/Desktop/new/team2/My project
+53982
+Successfully changed project path to: C:/Users/KGA/Documents/GitHub/team2/My project
+C:/Users/KGA/Documents/GitHub/team2/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/KGA/Desktop/new/team2/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12604] Host "[IP] 192.168.0.67 [Port] 0 [Flags] 2 [Guid] 903176561 [EditorId] 903176561 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IH4R2FS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [20220] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 3899019569 [EditorId] 3899019569 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N4PUILS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12604] Host "[IP] 192.168.0.67 [Port] 0 [Flags] 2 [Guid] 903176561 [EditorId] 903176561 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IH4R2FS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [20220] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 3899019569 [EditorId] 3899019569 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N4PUILS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 1204.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.21f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/KGA/Desktop/new/team2/My project/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/KGA/Documents/GitHub/team2/My project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,47 +67,47 @@ Direct3D:
     VRAM:     7829 MB
     Driver:   31.0.12042.4
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2022.3.21f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.110459 seconds.
-- Loaded All Assemblies, in  4.542 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009340 seconds.
+- Loaded All Assemblies, in  0.392 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.216 seconds
-Domain Reload Profiling: 4757ms
-	BeginReloadAssembly (3403ms)
+- Finished resetting the current domain, in  0.336 seconds
+Domain Reload Profiling: 727ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (287ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (151ms)
-	LoadAllAssembliesAndSetupDomain (692ms)
-		LoadAssemblies (3401ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (116ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (690ms)
-			TypeCache.Refresh (689ms)
-				TypeCache.ScanAssembly (513ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (131ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (216ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (337ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (172ms)
+		SetupLoadedEditorAssemblies (266ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (115ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 4757ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.797 seconds
-Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.558 seconds
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.442 seconds
-Domain Reload Profiling: 4238ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.516 seconds
+Domain Reload Profiling: 1071ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (3616ms)
-		LoadAssemblies (3270ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (270ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (412ms)
-			TypeCache.Refresh (398ms)
-				TypeCache.ScanAssembly (355ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (119ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (443ms)
+	FinalizeReload (516ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (329ms)
+		SetupLoadedEditorAssemblies (383ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (2ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (252ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3207 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 92 unused Assets / (10.8 MB). Loaded Objects now: 3609.
-Memory consumption went from 172.5 MB to 161.7 MB.
-Total: 6.553400 ms (FindLiveObjects: 0.227200 ms CreateObjectMapping: 0.074600 ms MarkObjects: 2.263300 ms  DeleteObjects: 3.987400 ms)
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (10.8 MB). Loaded Objects now: 3610.
+Memory consumption went from 177.2 MB to 166.4 MB.
+Total: 8.026300 ms (FindLiveObjects: 0.340100 ms CreateObjectMapping: 0.089200 ms MarkObjects: 2.964200 ms  DeleteObjects: 4.631200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,1000 +179,10 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.387 seconds
-Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.811 seconds
-Domain Reload Profiling: 1197ms
-	BeginReloadAssembly (138ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (187ms)
-		LoadAssemblies (248ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (812ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (372ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (270ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 83 unused Assets / (10.9 MB). Loaded Objects now: 3612.
-Memory consumption went from 161.6 MB to 150.7 MB.
-Total: 12.484800 ms (FindLiveObjects: 0.340200 ms CreateObjectMapping: 0.237700 ms MarkObjects: 3.744200 ms  DeleteObjects: 8.161600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
 Received Import Request.
-  Time since last request: 535.748300 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8e879701432a1b32415c888387653008') in 0.073974 seconds
+  Time since last request: 103387.176825 seconds.
+  path: Assets/AAA.mat
+  artifactKey: Guid(5693658c9832e384d92ea5ddb37e32b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AAA.mat using Guid(5693658c9832e384d92ea5ddb37e32b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88401aad5629ad18b2797f901ee2d799') in 0.097346 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Toon/Shader/Toon_DoubleShadeWithFeather_StencilOut.shader
-  artifactKey: Guid(0a1e4c9dcc0e9ea4db38ae9cb5059608) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_DoubleShadeWithFeather_StencilOut.shader using Guid(0a1e4c9dcc0e9ea4db38ae9cb5059608) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '621e42037fcc3c68aa559fc21449cb3d') in 0.039388 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Toon/Shader/ToonColor_DoubleShadeWithFeather_Transparent.shader
-  artifactKey: Guid(97b7edb5fc0f5744c9b264c2224a0b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/ToonColor_DoubleShadeWithFeather_Transparent.shader using Guid(97b7edb5fc0f5744c9b264c2224a0b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ea26e8c3f557e5eb11d48e599ab86c9') in 0.013832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping_StencilOut.shader
-  artifactKey: Guid(ed7fba947f3bccb4cbc78f55d7a56a70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping_StencilOut.shader using Guid(ed7fba947f3bccb4cbc78f55d7a56a70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0540cadd1b0e64f6b54628a2fb602d04') in 0.014226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping_StencilMask.shader
-  artifactKey: Guid(8600b2bec3ae31145afa80084df20c61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping_StencilMask.shader using Guid(8600b2bec3ae31145afa80084df20c61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee031b3372f72cbf5e0e8fda63f9329a') in 0.018325 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Toon/Shader/Toon_ShadingGradeMap_Mobile_TransClipping_StencilMask.shader
-  artifactKey: Guid(e88039bab21b7894e918126e8fce5d1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_ShadingGradeMap_Mobile_TransClipping_StencilMask.shader using Guid(e88039bab21b7894e918126e8fce5d1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3704a91b61cff00da59bd822decae1b2') in 0.017350 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile.shader
-  artifactKey: Guid(1d10c7840eb6ba74c889a27f14ba6081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile.shader using Guid(1d10c7840eb6ba74c889a27f14ba6081) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed8c6abb68f021902e7155905ebddedf') in 0.014424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Maya_Parameters (For Edit).asset
-  artifactKey: Guid(9667d8d6ade3de443bde14d9db435633) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Expressions/Maya_Parameters (For Edit).asset using Guid(9667d8d6ade3de443bde14d9db435633) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3bcc398c37aa6aedfb14d6af9290db3') in 0.014537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Kyubi closet/Maya/Particle emotions/Maya_Particle.png
-  artifactKey: Guid(e5f0c56cb42c22c469f6ce91e22a6e53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Particle emotions/Maya_Particle.png using Guid(e5f0c56cb42c22c469f6ce91e22a6e53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6208258f1b01217b179f2ef0e618d701') in 0.057581 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Toon/Shader/Toon_ShadingGradeMap_AngelRing_StencilOut.shader
-  artifactKey: Guid(415f07ab6fd766048ac6f8c2f2b406a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_ShadingGradeMap_AngelRing_StencilOut.shader using Guid(415f07ab6fd766048ac6f8c2f2b406a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7119d02fbd1f54cc543a393cebcb4c3d') in 0.015532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Kyubi closet/Maya/Particle emotions/Particle emotions_Head.prefab
-  artifactKey: Guid(3cf51f91192930748a77dfc24dd6b8c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Particle emotions/Particle emotions_Head.prefab using Guid(3cf51f91192930748a77dfc24dd6b8c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72fb0f05c0b474f5cc6aaf4ace6cbc4d') in 0.032188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 95
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing.shader
-  artifactKey: Guid(295fec4a7029edd4eb9522bef07f41ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing.shader using Guid(295fec4a7029edd4eb9522bef07f41ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de37fb2a1d4f6dcbe03098fad9a3077b') in 0.016137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Toon/Shader/Toon_OutlineObject_StencilOut.shader
-  artifactKey: Guid(2e2edd12fbf6bcb4ea1f34c17ee42df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_OutlineObject_StencilOut.shader using Guid(2e2edd12fbf6bcb4ea1f34c17ee42df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29a30f5b3a7a564f7d6763e5c4c52081') in 0.012944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/Houki.prefab
-  artifactKey: Guid(b316c18633b8673428ca506b3ddaaa9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Houki/Houki.prefab using Guid(b316c18633b8673428ca506b3ddaaa9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b26bb24b99364896a65784b6bf32e8e') in 0.057773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 66
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Kyubi closet/Maya/Models/Maya_FBX.fbx
-  artifactKey: Guid(09bd1c3f92972794ea53966802d645f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Models/Maya_FBX.fbx using Guid(09bd1c3f92972794ea53966802d645f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8120779ecee7fe315161f88d3411ba3') in 0.083530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 448
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Body.mat
-  artifactKey: Guid(f25f0530efb55864c949e49a0304cce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Materials/Body.mat using Guid(f25f0530efb55864c949e49a0304cce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72600f6fae63bd067a6b8316b0793b47') in 0.055355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_Light.shader
-  artifactKey: Guid(a1449ab672051624ca3160737b630f5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_Light.shader using Guid(a1449ab672051624ca3160737b630f5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6f18a2773cbd21eba13a8ff9cb51056d') in 0.015865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_Light_StencilOut.shader
-  artifactKey: Guid(79d3dc54c32b69b42be17c48d33575f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_Light_StencilOut.shader using Guid(79d3dc54c32b69b42be17c48d33575f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f38bf243676585dd102ec970e3cb9eda') in 0.014608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_Light.shader
-  artifactKey: Guid(356dd5af8f0d40e41b647d3d0a0555c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_Light.shader using Guid(356dd5af8f0d40e41b647d3d0a0555c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '786e4f8cb8de44c16a7b7cf7b1b923d8') in 0.014681 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Tess.shader
-  artifactKey: Guid(01494e58d87212f44ab51d29caea84e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Tess.shader using Guid(01494e58d87212f44ab51d29caea84e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9548106ab812392073f2f08065c90394') in 0.015347 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess.shader
-  artifactKey: Guid(4876871966ca2344793e439d7391d7b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess.shader using Guid(4876871966ca2344793e439d7391d7b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5bbd52048e04f5e6eb3e2bd7ad490277') in 0.014779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Transparent_Tess_StencilOut.shader
-  artifactKey: Guid(6d115cf94d14d1842a56dfff76b57f42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Transparent_Tess_StencilOut.shader using Guid(6d115cf94d14d1842a56dfff76b57f42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88327125c9347ec66ae4829b332051f8') in 0.015288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader
-  artifactKey: Guid(f937ea4ce96dfbe448afc0fb671198e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader using Guid(f937ea4ce96dfbe448afc0fb671198e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02a4932930d9c47f1b41fe766ae50237') in 0.016431 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Maya_Action.controller
-  artifactKey: Guid(27fd2a3df27955743bccf56eda2081ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Maya_Action.controller using Guid(27fd2a3df27955743bccf56eda2081ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2eaab0c1370278a71bff32c0026014be') in 0.177939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 108
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping_StencilOut.shader
-  artifactKey: Guid(43d0eeb4c46f52841b0941e99ac9b16b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping_StencilOut.shader using Guid(43d0eeb4c46f52841b0941e99ac9b16b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '769c0db0fe6281708567a679e5ebb949') in 0.015606 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader
-  artifactKey: Guid(2a0d4af863770404faee6488b86fe3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader using Guid(2a0d4af863770404faee6488b86fe3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ff4d610edcc93dd9c1b6c6c2e8ccba2') in 0.016216 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Toon/Editor/RemoveUnusedShaderKeywordsFromUTS2Material.cs
-  artifactKey: Guid(a9775daf5f793f64e98ccd6c4a61bbc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Editor/RemoveUnusedShaderKeywordsFromUTS2Material.cs using Guid(a9775daf5f793f64e98ccd6c4a61bbc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea23dcc8fefbabaaded9710b784ec3cf') in 0.014026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilOut.shader
-  artifactKey: Guid(7e7690a767a07da4f943439680e70db8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilOut.shader using Guid(7e7690a767a07da4f943439680e70db8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7bf6eb6ae246a4d9d03e869ec1fea60e') in 0.017349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Kyubi closet/Maya/Particle emotions/Maya_Particle.mat
-  artifactKey: Guid(c796bbbf476b432419dec69a4cf29191) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Particle emotions/Maya_Particle.mat using Guid(c796bbbf476b432419dec69a4cf29191) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '485df7503f4b01d9bc68d496af5fab4f') in 0.062074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader
-  artifactKey: Guid(148d1eca2cf299e4eb949d15c4cf95ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader using Guid(148d1eca2cf299e4eb949d15c4cf95ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ad021598fcad526a1ac443c29d39995') in 0.015455 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_StencilMask.shader
-  artifactKey: Guid(dec01cbdbc5b8da4ca8671815cda1557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_StencilMask.shader using Guid(dec01cbdbc5b8da4ca8671815cda1557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f30525c7ebdb05243d8907a0beb09988') in 0.016157 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping_StencilOut.shader
-  artifactKey: Guid(fb47be5a840097b45bac228446468ef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping_StencilOut.shader using Guid(fb47be5a840097b45bac228446468ef3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a34720c7c0497cbe61c8774ebb79721b') in 0.017151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Gestures/Hand_ThumbsUp.anim
-  artifactKey: Guid(01782802c40e5ba46b43b6a7cd785db1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Gestures/Hand_ThumbsUp.anim using Guid(01782802c40e5ba46b43b6a7cd785db1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7f7c98dba9e6ee16884cd0f8dffe1f1') in 0.022669 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_Light_StencilOut.shader
-  artifactKey: Guid(98ac5d198a471494da681b7b8d1e1727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_Light_StencilOut.shader using Guid(98ac5d198a471494da681b7b8d1e1727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c574f121b3272f89a44484e32b69109') in 0.018088 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader
-  artifactKey: Guid(8d1395a9f4bfad44d8fddd0f2af19b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader using Guid(8d1395a9f4bfad44d8fddd0f2af19b1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '008a5ec3367b1ddb6d037aab84c94d95') in 0.016847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Gestures/Hand_Point.anim
-  artifactKey: Guid(689a66e6fa2568249bba2122ec6912b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Gestures/Hand_Point.anim using Guid(689a66e6fa2568249bba2122ec6912b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b912099fbc3069e70e014f402e94fdb') in 0.018589 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/Crystal Shader/Crystal Shader.shader
-  artifactKey: Guid(0962f7b93c5ff444885d8aa8b539e6de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Houki/Crystal Shader/Crystal Shader.shader using Guid(0962f7b93c5ff444885d8aa8b539e6de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49754ed5c88049fca9f0a639173f0ceb') in 0.013187 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Gestures/Hand_Fist.anim
-  artifactKey: Guid(d94f2231e0b0ad44aa1d9ed74d158129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Gestures/Hand_Fist.anim using Guid(d94f2231e0b0ad44aa1d9ed74d158129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b8f6463b8e1ec55e5b083557dba3bc6') in 0.020736 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Icons/IconPack.psd
-  artifactKey: Guid(f1e95d1a7573695439141ed2b07e349c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Expressions/Icons/IconPack.psd using Guid(f1e95d1a7573695439141ed2b07e349c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9405dcdd0e27f83d46b40e628f1296e') in 0.026094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Icons/ICO_SkirtSize.png
-  artifactKey: Guid(648d83b58bb58fa44ba927871a69a46c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Expressions/Icons/ICO_SkirtSize.png using Guid(648d83b58bb58fa44ba927871a69a46c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8782d4bdc5858c12a21d1f12523bbc5') in 0.020632 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/SubMenus/LockFace.asset
-  artifactKey: Guid(0bc1b68902b98064e9a57566a2f69068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Expressions/SubMenus/LockFace.asset using Guid(0bc1b68902b98064e9a57566a2f69068) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c3ce717d624e029bd2f49903131bfe7') in 0.015787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Gestures/Hand_RocknRoll.anim
-  artifactKey: Guid(7338eba16a399474cb32bff33732dfa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Gestures/Hand_RocknRoll.anim using Guid(7338eba16a399474cb32bff33732dfa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6b501d17e77896906e37d63ae7491c59') in 0.017815 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_StencilOut.shader
-  artifactKey: Guid(e667137c8b6fd3d4390fc364b2e5c70b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_StencilOut.shader using Guid(e667137c8b6fd3d4390fc364b2e5c70b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b55b7ce19993567ce259ba12d874bf23') in 0.018125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess_StencilOut.shader
-  artifactKey: Guid(7c48bdc9fed28c14b8ad0748673b1369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess_StencilOut.shader using Guid(7c48bdc9fed28c14b8ad0748673b1369) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6c33883a996479aedbec64b7a353dc3') in 0.016223 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Toon/Shader/Toon_ShadingGradeMap_Mobile_TransClipping.shader
-  artifactKey: Guid(cce1da34c52aff745adf0222f56a356c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_ShadingGradeMap_Mobile_TransClipping.shader using Guid(cce1da34c52aff745adf0222f56a356c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb80761c0e27143b36de6b06e753664a') in 0.014879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Toon/Shader/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess.shader
-  artifactKey: Guid(3c39a77fda28b5043a7a17c7877cf7b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess.shader using Guid(3c39a77fda28b5043a7a17c7877cf7b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c7804e6da02e08ab26cd1e2706b2a91') in 0.015825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Transparent_Tess_StencilOut.shader
-  artifactKey: Guid(f28bba8b2f259bb40b697d91849c8794) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Transparent_Tess_StencilOut.shader using Guid(f28bba8b2f259bb40b697d91849c8794) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '642e587c8e181b34c5f6d30a573c2ee5') in 0.015685 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Toon/Shader/ToonColor_DoubleShadeWithFeather_Clipping_StencilOut.shader
-  artifactKey: Guid(d7da29588857e774bb0650f1fae494c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/ToonColor_DoubleShadeWithFeather_Clipping_StencilOut.shader using Guid(d7da29588857e774bb0650f1fae494c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd97b4febf19e028eabe766ad4bf7201a') in 0.015240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Action/afk_start.anim
-  artifactKey: Guid(b0bd4ad711c922e45ab3ff392a284338) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Action/afk_start.anim using Guid(b0bd4ad711c922e45ab3ff392a284338) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd4ae1d795b2f2abadb0396f905d03378') in 0.033750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Toon/Shader/Tess/UCTS_Tess.cginc
-  artifactKey: Guid(13aee1e1f6c49d94fa292dca9910126e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/UCTS_Tess.cginc using Guid(13aee1e1f6c49d94fa292dca9910126e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98b349b29eadd0e8626aff110a42d5c4') in 0.015367 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Toon/Shader/ToonColor_DoubleShadeWithFeather_StencilOut.shader
-  artifactKey: Guid(2e5cc2da6af713844956264245e092e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/ToonColor_DoubleShadeWithFeather_StencilOut.shader using Guid(2e5cc2da6af713844956264245e092e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09cff61bdec6078be9ff8da1249a128f') in 0.014158 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Maya_Menu (For Edit).asset
-  artifactKey: Guid(e087eda08bae40d48a2b7796045d8473) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Expressions/Maya_Menu (For Edit).asset using Guid(e087eda08bae40d48a2b7796045d8473) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b2cd5ba1acd631df1d5a20bdc2d8bc20') in 0.015413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Toon/Shader/Toon_ShadingGradeMap.shader
-  artifactKey: Guid(ca035891872022e4f80c952b3916e450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_ShadingGradeMap.shader using Guid(ca035891872022e4f80c952b3916e450) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '191541f84c0f8508f7137098bbaa2154') in 0.014310 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_TransClipping.shader
-  artifactKey: Guid(d4c592285a93c3844aafdaafffc07ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_TransClipping.shader using Guid(d4c592285a93c3844aafdaafffc07ec7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c729cb6179337d4bb9c40af739d14f70') in 0.015576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Tess_StencilOut.shader
-  artifactKey: Guid(b179fb8a87955a347b5f594a18b43475) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Tess_StencilOut.shader using Guid(b179fb8a87955a347b5f594a18b43475) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cb194e66fbcf6c12e7febd65a1a83053') in 0.016889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Toon/Editor/UTS2GUI.cs
-  artifactKey: Guid(e403ef4b1d56fce47b49ec46981d9fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Editor/UTS2GUI.cs using Guid(e403ef4b1d56fce47b49ec46981d9fcb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '406ee9713f6575f9022f03655bc95926') in 0.013281 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Icons/ICO_BreastSize.png
-  artifactKey: Guid(43cd566ac742e784d886f4c682c81414) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Expressions/Icons/ICO_BreastSize.png using Guid(43cd566ac742e784d886f4c682c81414) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9a508b0c807ede86ccc9249a9e97c6a') in 0.020932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilMask.shader
-  artifactKey: Guid(3073cd2564e4cde45a19c05e0012d22a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilMask.shader using Guid(3073cd2564e4cde45a19c05e0012d22a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd160b1ebfcd41e5c2b72edb4e5e1a256') in 0.015662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Toon/Shader/ToonColor_ShadingGradeMap_StencilMask.shader
-  artifactKey: Guid(6439813c08a1f8947bb0ca6599499dd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/ToonColor_ShadingGradeMap_StencilMask.shader using Guid(6439813c08a1f8947bb0ca6599499dd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08a46f8a52c7baf929fb409f6a12ddc9') in 0.014101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Body.png
-  artifactKey: Guid(d567286f020cfb24aa342b92b88af0f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Body.png using Guid(d567286f020cfb24aa342b92b88af0f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7ce78c8658784a9391f0bce38875f2e') in 0.018380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Face_lll.anim
-  artifactKey: Guid(a3af50408c2e7334d832b6c28e321bdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Face_lll.anim using Guid(a3af50408c2e7334d832b6c28e321bdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '606e98c262231403186c5c099b6d6821') in 0.023177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Face_angry.anim
-  artifactKey: Guid(079c1f905a0e2b047871b9aa11defb6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Face_angry.anim using Guid(079c1f905a0e2b047871b9aa11defb6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd66c94088ea93c77f579c6e41c263fa') in 0.023086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Effect.png
-  artifactKey: Guid(0d9c13db7300c414c8ce27046b6f6546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Effect.png using Guid(0d9c13db7300c414c8ce27046b6f6546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67b6f4dea2ef48634329fdc9c836f2b1') in 0.023086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/Clothes/OFF_Clothes.anim
-  artifactKey: Guid(a63ef7e15754193448aad871b38e321b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/Clothes/OFF_Clothes.anim using Guid(a63ef7e15754193448aad871b38e321b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7e9e8d8f991fa003eba17a6fd8a6409') in 0.020910 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Hair_C.png
-  artifactKey: Guid(1ce77729f83dc944f9ccea666f617d3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Hair_C.png using Guid(1ce77729f83dc944f9ccea666f617d3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0483b3c6b266cc5845988f9a6586329') in 0.021372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/Crystal Shader/LICENSE.txt
-  artifactKey: Guid(c673de2e7ec2261469c5fb230a9a1b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Houki/Crystal Shader/LICENSE.txt using Guid(c673de2e7ec2261469c5fb230a9a1b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4902451bda518623915cffb7b26945a7') in 0.015227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Hair_Ring.png
-  artifactKey: Guid(63b515703aab7c943ae026d6859856ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Hair_Ring.png using Guid(63b515703aab7c943ae026d6859856ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ff51dba7f8566393791ac4f605e1e90') in 0.021582 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/HOD/1.obj
-  artifactKey: Guid(021b45e953c79f048b7caab62bfe66e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Houki/HOD/1.obj using Guid(021b45e953c79f048b7caab62bfe66e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '530919db6a2bf5bf57d896edc42be5e1') in 0.019946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Cloth_N.png
-  artifactKey: Guid(7bdfb6976f6a9c94886b335dff152cc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Cloth_N.png using Guid(7bdfb6976f6a9c94886b335dff152cc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '807cfc76e4fd1535f2dd09d0e6885311') in 0.030295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Body_E_C.png
-  artifactKey: Guid(5222bb74af638f04d9029322855dc855) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Body_E_C.png using Guid(5222bb74af638f04d9029322855dc855) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6303dd64d5ef33d0dfd42d306cc39fc6') in 0.017166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Body_Line_C.png
-  artifactKey: Guid(08fa159d995be7c43b71711be1bf0c13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Body_Line_C.png using Guid(08fa159d995be7c43b71711be1bf0c13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '857aa4ad0c41a25932d293a50f2e49d7') in 0.018470 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/Materials/Houki_C.png
-  artifactKey: Guid(faeba76990c2ea14ca14288017c33245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Houki/Materials/Houki_C.png using Guid(faeba76990c2ea14ca14288017c33245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd667024c0ca131603375e6bee3a0467d') in 0.016261 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Face_Thumbs up.anim
-  artifactKey: Guid(576796651a1e69e4fb0f70ac91320dac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Face_Thumbs up.anim using Guid(576796651a1e69e4fb0f70ac91320dac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae9d91c86ef7f48d5c1131b69fd6aa2f') in 0.021991 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/HOD/Jewelry ( bone-Houki 1 ).prefab
-  artifactKey: Guid(e2f46f133a55f7144a04a8302eda3234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Houki/HOD/Jewelry ( bone-Houki 1 ).prefab using Guid(e2f46f133a55f7144a04a8302eda3234) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f318bee6963d88c8c3df08ffbcb26cf3') in 0.022247 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/FaceEffects/OFF_Effect.anim
-  artifactKey: Guid(c602b2916458f5347bcd0b9704062b91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/FaceEffects/OFF_Effect.anim using Guid(c602b2916458f5347bcd0b9704062b91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f13617ace2514797d617499073d879e') in 0.018311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Hair.png
-  artifactKey: Guid(fc7b2ddd29fe6af41bf36a5f99b032dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Hair.png using Guid(fc7b2ddd29fe6af41bf36a5f99b032dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0806a4e5beb618c38a0f9733d65dbfec') in 0.038639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Face_Gun.anim
-  artifactKey: Guid(37376aaf3b3da504b91b462015348eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Face_Gun.anim using Guid(37376aaf3b3da504b91b462015348eb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd3b10242102bc711fcc6e8ce6668f4e') in 0.021439 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/BreastSize/BreastSize.anim
-  artifactKey: Guid(3c10290649d222849833c639608636ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/BreastSize/BreastSize.anim using Guid(3c10290649d222849833c639608636ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8360f1c43cea10d8106161410365a3d1') in 0.021682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Icons/ICO_Point_Additional.png
-  artifactKey: Guid(28cef20df8054c34390b2fa49b24b0a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Expressions/Icons/ICO_Point_Additional.png using Guid(28cef20df8054c34390b2fa49b24b0a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '768a35ed276d75d99b04a19bfee9bb80') in 0.023595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Locomotion/Maya_Crouching.asset
-  artifactKey: Guid(d93d01ed8178f2441b736f65d2aae418) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Locomotion/Maya_Crouching.asset using Guid(d93d01ed8178f2441b736f65d2aae418) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '860eea9c60b651296763c6480b7798fe') in 0.019248 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/Materials/Houki_N.png
-  artifactKey: Guid(0fde13867fd44cb4481c20946033ca3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Houki/Materials/Houki_N.png using Guid(0fde13867fd44cb4481c20946033ca3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f72faca4bee962e8a739651f155f8d3d') in 0.021511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/Skirt/SkirtSize.anim
-  artifactKey: Guid(7bd3608f94156aa44a6997617bb8fe6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/Skirt/SkirtSize.anim using Guid(7bd3608f94156aa44a6997617bb8fe6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '26f46103f1a59b7d5a63ef5d570bf69b') in 0.020153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/PSD/Cloth.psd
-  artifactKey: Guid(f2b1533e70c624d4aba1856e1a45da17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/PSD/Cloth.psd using Guid(f2b1533e70c624d4aba1856e1a45da17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c3189b7b1460c7f9b819f87e10e80d7') in 0.051122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/SubMenus/Sub_LockFace/LockFace_Origin.asset
-  artifactKey: Guid(e3394fd3d8c491a43988318000fc9b03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Expressions/SubMenus/Sub_LockFace/LockFace_Origin.asset using Guid(e3394fd3d8c491a43988318000fc9b03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b53a1b832e22efb9dc392f6a2fc966c5') in 0.018546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/Socks/OFF_Socks.anim
-  artifactKey: Guid(65bdc3b0f7e7ccc4ea2356bf9d10ab49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/Socks/OFF_Socks.anim using Guid(65bdc3b0f7e7ccc4ea2356bf9d10ab49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a56efb33138254ab57b7f89a2bf2bed') in 0.020467 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/Hat/ON_Hat.anim
-  artifactKey: Guid(f290cfd77158e754db29b556ad9bd53a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/Hat/ON_Hat.anim using Guid(f290cfd77158e754db29b556ad9bd53a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ead63d7d1c7324a8032b54e262f1536e') in 0.019827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/PSD/Body all.psd
-  artifactKey: Guid(d3303c29149b49442a33fbddf02d34cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/PSD/Body all.psd using Guid(d3303c29149b49442a33fbddf02d34cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b432d6ddd0168e3d0a4ff3163a30e451') in 0.028276 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/Hat/OFF_Hat.anim
-  artifactKey: Guid(fa3b2a544143c214dadb8c8bbcd053d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/Hat/OFF_Hat.anim using Guid(fa3b2a544143c214dadb8c8bbcd053d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '284e7aab9d6c7e34bb7fc9b5200bab2b') in 0.018781 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Additional/Face_Difficult.anim
-  artifactKey: Guid(d9405b94664b92449ace7de51802174d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Additional/Face_Difficult.anim using Guid(d9405b94664b92449ace7de51802174d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8530e00356f852cff6cf428e9e787975') in 0.026404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Additional/Face_Panic.anim
-  artifactKey: Guid(afa927f85fa9d2e4796a6dafda0e4fe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Additional/Face_Panic.anim using Guid(afa927f85fa9d2e4796a6dafda0e4fe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '57a070bde866df4d04d9530324adbd8e') in 0.022257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess.shader
-  artifactKey: Guid(f0b2fc9b8a189134da9c7d24f361caf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess.shader using Guid(f0b2fc9b8a189134da9c7d24f361caf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd63dbb114d2e5851e1a1146b789450f1') in 0.015132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader
-  artifactKey: Guid(8c94ee3046ef0574f87f6b658b4e4691) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader using Guid(8c94ee3046ef0574f87f6b658b4e4691) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8bee06dd13a0e802e70ebb25fadf0504') in 0.013364 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/Materials/houseki.mat
-  artifactKey: Guid(e5fce3f663764ea4d9513f6ba5fd82b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Houki/Materials/houseki.mat using Guid(e5fce3f663764ea4d9513f6ba5fd82b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0718386a3fd4ec947f8d1da19bc293b') in 0.019710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Gestures/Hands_Idle.anim
-  artifactKey: Guid(7cdaae9fc46e7cb46a5fca1bf657fad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Gestures/Hands_Idle.anim using Guid(7cdaae9fc46e7cb46a5fca1bf657fad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9554c95a3ee51e4004100d5ffc3090f8') in 0.024401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Additional/Face_What.anim
-  artifactKey: Guid(5282be02e5f791847851d2db73a7dd88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Additional/Face_What.anim using Guid(5282be02e5f791847851d2db73a7dd88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6e7191724a9ccd09f4d6129d8fb253a') in 0.024129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Toon/Shader/Toon_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader
-  artifactKey: Guid(d1e11a558d143f14c864edf263332764) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader using Guid(d1e11a558d143f14c864edf263332764) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37cc2a4b240d52c61c3b6addcc29f2ff') in 0.017377 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Toon/Shader/Toon_ShadingGradeMap_Mobile_StencilOut.shader
-  artifactKey: Guid(cfc201757f2519c4bb6ef9265a046582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_ShadingGradeMap_Mobile_StencilOut.shader using Guid(cfc201757f2519c4bb6ef9265a046582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1157472ee8a1bb26c2dcb9aabc64e90') in 0.016159 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Kyubi closet/Maya/Maya.prefab
-  artifactKey: Guid(2c9634d4306a3f34b90844853f2ade99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Maya.prefab using Guid(2c9634d4306a3f34b90844853f2ade99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8a24c46d0233f90aacf676870e737d0') in 0.039854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 674
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess.shader
-  artifactKey: Guid(5b8a1502578ed764c9880a7be65c9672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess.shader using Guid(5b8a1502578ed764c9880a7be65c9672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a009628f34a2ce8a260b80639b39a2f5') in 0.017015 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Action/afk_end.anim
-  artifactKey: Guid(4d6e90e3e17b50d45936628a47dfe13a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Action/afk_end.anim using Guid(4d6e90e3e17b50d45936628a47dfe13a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa5971cb9756d3b3755a465652ca4096') in 0.033009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_StencilOut.shader
-  artifactKey: Guid(55e8b9eeaaff205469365133fe7bc744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_StencilOut.shader using Guid(55e8b9eeaaff205469365133fe7bc744) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4560b62cb0510e3970c6dfc85122de02') in 0.015462 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Maya_FX (For Edit).controller
-  artifactKey: Guid(3563332b500ee7742b08003f912423c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Maya_FX (For Edit).controller using Guid(3563332b500ee7742b08003f912423c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ff9e1f59708682282ed756b6ae2295a1') in 0.082774 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 141
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Maya_Parameters.asset
-  artifactKey: Guid(171f3f312cf9bd64096ed1350bf5a235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Expressions/Maya_Parameters.asset using Guid(171f3f312cf9bd64096ed1350bf5a235) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fea0afbbff4552e764729ee7b56c343') in 0.016998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping.shader
-  artifactKey: Guid(369d674ae1ba36249bb00e2f73b0cd10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping.shader using Guid(369d674ae1ba36249bb00e2f73b0cd10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '505425a51ac39b74a4cb3ef423982488') in 0.016838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Action/maya_afk.anim
-  artifactKey: Guid(bafd6b04c60df034289ea25bf89ae7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Action/maya_afk.anim using Guid(bafd6b04c60df034289ea25bf89ae7aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1cf142be4c13a71cfad63b7c611e7eee') in 0.086458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Icons/ICO_Hat.png
-  artifactKey: Guid(4c45fda3547019d4a931b4a4351abb1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Expressions/Icons/ICO_Hat.png using Guid(4c45fda3547019d4a931b4a4351abb1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94c64f8463a792e922c45bc3bbf56efc') in 0.021282 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Toon/Shader/ToonColor_ShadingGradeMap_Transparent.shader
-  artifactKey: Guid(7737ca8c4e3939f4086a6e08f93c2ebd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/ToonColor_ShadingGradeMap_Transparent.shader using Guid(7737ca8c4e3939f4086a6e08f93c2ebd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ff8a4e870053e77aa3a7897b2dff237') in 0.014743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Body all.png
-  artifactKey: Guid(1583efcbfea755844ad5797e973fcfa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Body all.png using Guid(1583efcbfea755844ad5797e973fcfa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '33af3c8fca9be61b116705b62b09f59c') in 0.021399 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/HOD/4.obj
-  artifactKey: Guid(bb2464e88f4165942bb1d7019344b3d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Houki/HOD/4.obj using Guid(bb2464e88f4165942bb1d7019344b3d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1675b3d9b26e835dc16ccbc0e1ce5f6e') in 0.017394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Toon/Shader/ToonColor_ShadingGradeMap_TransClipping_StencilOut.shader
-  artifactKey: Guid(31c75b34739dfc64fb57bf49005e942d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/ToonColor_ShadingGradeMap_TransClipping_StencilOut.shader using Guid(31c75b34739dfc64fb57bf49005e942d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17c009ece30e594e34c53ed83c72bcbf') in 0.017566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_OutlineObject_Tess_StencilOut.shader
-  artifactKey: Guid(06cae78b869a3234bab02eeb52197e1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_OutlineObject_Tess_StencilOut.shader using Guid(06cae78b869a3234bab02eeb52197e1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02e83af4f8069d1bc795b7eb7d1c30be') in 0.011933 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/Animations/Houki_OFF.anim
-  artifactKey: Guid(a956c223f0eebc34aa4509b5b3207678) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Houki/Animations/Houki_OFF.anim using Guid(a956c223f0eebc34aa4509b5b3207678) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '450ef20ba70f8d597512c4177f09c53e') in 0.012795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_StencilOut.shader
-  artifactKey: Guid(18c9172cdf36a344f9aca9bbc0e7002d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_StencilOut.shader using Guid(18c9172cdf36a344f9aca9bbc0e7002d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b5890fb7d1e06846090a184d02c81025') in 0.016947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Toon/Shader/Tess/UCTS_Outline_Tess.cginc
-  artifactKey: Guid(c139664fde6401f45a09b0f32279484b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Toon/Shader/Tess/UCTS_Outline_Tess.cginc using Guid(c139664fde6401f45a09b0f32279484b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '198346190c56e76a3d3cb964503b010a') in 0.014616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Face_Open.anim
-  artifactKey: Guid(6420e039a17210e4ab77b70a3f5c690d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Fx/FaceReactions/Face_Open.anim using Guid(6420e039a17210e4ab77b70a3f5c690d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '433dd0642c91bc365cacb5fe49165ec8') in 0.017271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Kyubi closet/Maya/Animations/Locomotion/Maya_Sitting.anim
-  artifactKey: Guid(c11fc66eef4b3d14dbc7558cddee1873) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Kyubi closet/Maya/Animations/Locomotion/Maya_Sitting.anim using Guid(c11fc66eef4b3d14dbc7558cddee1873) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ffe545680788660150b1147113375257') in 0.012472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
