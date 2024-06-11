@@ -15,7 +15,7 @@ C:/Users/KGA/Documents/GitHub/team2/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55036
+50046
 Successfully changed project path to: C:/Users/KGA/Documents/GitHub/team2/My project
 C:/Users/KGA/Documents/GitHub/team2/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/KGA/Documents/GitHub/team2/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20348] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 2321075890 [EditorId] 2321075890 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N4PUILS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4104] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 4264782057 [EditorId] 4264782057 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N4PUILS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20348] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 2321075890 [EditorId] 2321075890 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N4PUILS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4104] Host "[IP] 192.168.0.71 [Port] 0 [Flags] 2 [Guid] 4264782057 [EditorId] 4264782057 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N4PUILS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 9.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011235 seconds.
-- Loaded All Assemblies, in  0.379 seconds
+Registered in 0.007358 seconds.
+- Loaded All Assemblies, in  0.362 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.293 seconds
-Domain Reload Profiling: 670ms
-	BeginReloadAssembly (107ms)
+- Finished resetting the current domain, in  0.307 seconds
+Domain Reload Profiling: 668ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (104ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (115ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (150ms)
-				TypeCache.ScanAssembly (137ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (118ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (294ms)
+	FinalizeReload (308ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (235ms)
+		SetupLoadedEditorAssemblies (248ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (7ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (169ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,330 +115,56 @@ Domain Reload Profiling: 670ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.648 seconds
-Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.634 seconds
+Refreshing native plugins compatible for Editor in 4.99 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.577 seconds
-Domain Reload Profiling: 1223ms
-	BeginReloadAssembly (161ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (399ms)
-		LoadAssemblies (322ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (168ms)
-			TypeCache.Refresh (147ms)
-				TypeCache.ScanAssembly (132ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (577ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (431ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (324ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 92 unused Assets / (10.8 MB). Loaded Objects now: 3610.
-Memory consumption went from 177.2 MB to 166.4 MB.
-Total: 10.391400 ms (FindLiveObjects: 0.271700 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.077000 ms  DeleteObjects: 7.955400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 108408.584508 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Cloth.png
-  artifactKey: Guid(32e0c7deb7e653940b8d3089a5a00e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Cloth.png using Guid(32e0c7deb7e653940b8d3089a5a00e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca41ec71794c0328eed51dc2f63d400') in 0.104627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/PSD/Body all.psd
-  artifactKey: Guid(d3303c29149b49442a33fbddf02d34cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/PSD/Body all.psd using Guid(d3303c29149b49442a33fbddf02d34cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c186343e162ad12da6ccb50ca3ca3d12') in 0.031529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Body all.png
-  artifactKey: Guid(1583efcbfea755844ad5797e973fcfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Body all.png using Guid(1583efcbfea755844ad5797e973fcfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95f8ea1af6ec23fe48b8cbdd41bb1b5') in 0.028540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.153058 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Cloth_Mat_C.png
-  artifactKey: Guid(b8c648c8f32ac4445b4d3b0d6ac9c4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Cloth_Mat_C.png using Guid(b8c648c8f32ac4445b4d3b0d6ac9c4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1716f0f85ec719dfe1b11b01bf20fc8d') in 0.013781 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.035444 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/PSD/Effect.psd
-  artifactKey: Guid(f96976f8835192544882e7a7b4e480ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/PSD/Effect.psd using Guid(f96976f8835192544882e7a7b4e480ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e7a20532f0fbdcc72248b9b989d66b') in 0.018516 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.609369 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Effect_C.png
-  artifactKey: Guid(d03b36d3d502dd44982cbb0efc66bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Effect_C.png using Guid(d03b36d3d502dd44982cbb0efc66bd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcabfe663f51fce37e6b34b0f3e46297') in 0.017087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.949803 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Hair.png
-  artifactKey: Guid(fc7b2ddd29fe6af41bf36a5f99b032dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Hair.png using Guid(fc7b2ddd29fe6af41bf36a5f99b032dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e860d06b61c896e8b99e8b17fd5ed7') in 0.023188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.083883 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Hair_C.png
-  artifactKey: Guid(1ce77729f83dc944f9ccea666f617d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Hair_C.png using Guid(1ce77729f83dc944f9ccea666f617d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bedec3618cbc85df1c5122cd3510bbc') in 0.015045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.214599 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Hair_Ring.png
-  artifactKey: Guid(63b515703aab7c943ae026d6859856ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Hair_Ring.png using Guid(63b515703aab7c943ae026d6859856ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af53a343991a79909880da859f3b2148') in 0.016440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.041560 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/Materials/Houki.png
-  artifactKey: Guid(3e0199a47ed99bf418195f0e9b81ddfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Houki/Materials/Houki.png using Guid(3e0199a47ed99bf418195f0e9b81ddfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4547c34168be5f70096e4416f9e5a70') in 0.018872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.635127 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/Materials/Houki_Mat.png
-  artifactKey: Guid(37134b9ce05ed1a44ab78c9b34459a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Houki/Materials/Houki_Mat.png using Guid(37134b9ce05ed1a44ab78c9b34459a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1568ade22dc64b50a8915031af6c35') in 0.018603 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.017306 seconds.
-  path: Assets/Kyubi closet/Maya/Houki/Materials/Houki_PSD.psd
-  artifactKey: Guid(b1a7802f8b0b0a349aa26fe42fa46c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Houki/Materials/Houki_PSD.psd using Guid(b1a7802f8b0b0a349aa26fe42fa46c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa0fcca5adc6569fb0c22e32bda4aae') in 0.021694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.307014 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Icons/ICO_Clothes.png
-  artifactKey: Guid(a4687a52b5c53444a9769825ed0ea6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Expressions/Icons/ICO_Clothes.png using Guid(a4687a52b5c53444a9769825ed0ea6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3214f0ea72122cebae447866799525e') in 0.017705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.044082 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Icons/ICO_LockMenu.png
-  artifactKey: Guid(3323f92742d392544973762b93a61f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Expressions/Icons/ICO_LockMenu.png using Guid(3323f92742d392544973762b93a61f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb4c10714858a7b4f63627342cca91f') in 0.013852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.002401 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Icons/ICO_Point_Additional.png
-  artifactKey: Guid(28cef20df8054c34390b2fa49b24b0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Expressions/Icons/ICO_Point_Additional.png using Guid(28cef20df8054c34390b2fa49b24b0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4429aa640bc62611a65947efd6004b7c') in 0.016699 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.350820 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Icons/ICO_Socks.png
-  artifactKey: Guid(db51542a3f5fb4741a0fcc8a356f0e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Expressions/Icons/ICO_Socks.png using Guid(db51542a3f5fb4741a0fcc8a356f0e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb33e4613d9a049a2fd1f203b09c193') in 0.019027 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.026721 seconds.
-  path: Assets/Kyubi closet/Maya/Expressions/Icons/IconPack-assets/IconPack.png
-  artifactKey: Guid(55506aa41424f71438be1221a7826050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Expressions/Icons/IconPack-assets/IconPack.png using Guid(55506aa41424f71438be1221a7826050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3026fd66e7a50289b1c9f603ce8253') in 0.016940 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.012997 seconds.
-  path: Assets/Kyubi closet/Maya/Materials/Textures/Maya_Matcap02.png
-  artifactKey: Guid(31e9a5219ae56d94d81427c17ff47fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Kyubi closet/Maya/Materials/Textures/Maya_Matcap02.png using Guid(31e9a5219ae56d94d81427c17ff47fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5bd6477b2b2b0db2822a0de34153302') in 0.013983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.435 seconds
-Refreshing native plugins compatible for Editor in 3.97 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.998 seconds
-Domain Reload Profiling: 1430ms
-	BeginReloadAssembly (162ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (200ms)
-		LoadAssemblies (276ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (999ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (475ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (343ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3149 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 83 unused Assets / (10.9 MB). Loaded Objects now: 3616.
-Memory consumption went from 166.0 MB to 155.2 MB.
-Total: 14.901600 ms (FindLiveObjects: 0.408900 ms CreateObjectMapping: 0.255800 ms MarkObjects: 3.181300 ms  DeleteObjects: 11.054300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.436 seconds
-Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.014 seconds
-Domain Reload Profiling: 1447ms
-	BeginReloadAssembly (155ms)
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 1264ms
+	BeginReloadAssembly (154ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (209ms)
-		LoadAssemblies (280ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (296ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1015ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (632ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (489ms)
+		SetupLoadedEditorAssemblies (472ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (353ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (363ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3150 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 83 unused Assets / (10.9 MB). Loaded Objects now: 3619.
-Memory consumption went from 168.3 MB to 157.4 MB.
-Total: 18.370900 ms (FindLiveObjects: 1.095700 ms CreateObjectMapping: 0.637400 ms MarkObjects: 4.904900 ms  DeleteObjects: 11.731300 ms)
+Unloading 3219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (10.7 MB). Loaded Objects now: 3621.
+Memory consumption went from 177.3 MB to 166.6 MB.
+Total: 11.634200 ms (FindLiveObjects: 0.339400 ms CreateObjectMapping: 0.336300 ms MarkObjects: 5.184900 ms  DeleteObjects: 5.771600 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -452,3 +178,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 243793.531779 seconds.
+  path: Assets/AAA.mat
+  artifactKey: Guid(5693658c9832e384d92ea5ddb37e32b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AAA.mat using Guid(5693658c9832e384d92ea5ddb37e32b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a9e3d37ba478f842e61995173c7c0d') in 0.216922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
